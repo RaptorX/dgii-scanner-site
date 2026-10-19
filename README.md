@@ -1,6 +1,6 @@
 # DGII Scanner public website
 
-Version: 0.1.2
+Version: 0.1.3
 
 Static HTML5 and CSS, served by GitHub Pages. Website only; no application source or credentials.
 
