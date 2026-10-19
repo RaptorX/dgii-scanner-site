@@ -1,6 +1,6 @@
 # DGII Scanner public website
 
-Version: 0.1.3
+Version: 0.1.4
 
 Static HTML5 and CSS, served by GitHub Pages. Website only; no application source or credentials.
 
@@ -11,3 +11,5 @@ Colors derive from the app's theming/palette.json. Feature statements were check
 
 ## Publish
 Serve main branch root through GitHub Pages. No build dependencies. Increment version.json for each published change. Local preview: python3 -m http.server --bind 127.0.0.1 8768
+
+Version 0.1.4 replaces the feature cards with alternating full-width text/image sections, original phone illustrations, softer gradients, and contact links without displaying the address on the landing page.
