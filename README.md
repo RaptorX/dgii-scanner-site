@@ -1,6 +1,6 @@
 # DGII Scanner public website
 
-Version: 0.1.5
+Version: 0.1.6
 
 Static HTML5 and CSS, served by GitHub Pages. Website only; no application source or credentials.
 
@@ -15,3 +15,5 @@ Serve main branch root through GitHub Pages. No build dependencies. Increment ve
 Version 0.1.5 replaces the feature cards with alternating full-width text/image sections, original phone illustrations, softer gradients, and contact links without displaying the address on the landing page.
 
 Version 0.1.5 adds separate receipt-data layers and staggered viewport entrance animations. Motion is optional, respects OS reduced-motion preferences, and uses no dependencies or tracking. Without JavaScript all content remains visible.
+
+0.1.6: Spanish defaults with saved English/Spanish preference, Avalion Solutions attribution, prominent receipt app mark, one main support CTA, a clearly unavailable Google Play section, and larger desktop/4K typography. Language preference is stored only on explicit selection.
