@@ -67,3 +67,6 @@ html[lang="es"] .hero h1{font-size:clamp(48px,5.2vw,140px)}
 .plans{padding:80px var(--space)}.plans h2{margin-bottom:24px}.plans-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin:32px 0}.plan{background:var(--panel);border:1px solid var(--line);border-radius:24px;padding:32px;min-width:0;display:flex;flex-direction:column}.plan:nth-child(2){border-color:var(--light-blue)}.plan h3{margin-bottom:16px}.plan-price{font-size:24px;min-height:3.3em}.plan ul{padding-left:22px;margin:0}.plan li{margin-bottom:12px;overflow-wrap:anywhere}@media(max-width:700px){.plans-grid{grid-template-columns:1fr}.plans{padding-top:48px;padding-bottom:48px}}
 
 @media(max-width:700px){.plan-price{min-height:0}.plan{padding:28px}}
+
+/* Centered pricing cards, website 0.1.10 */
+.plans{max-width:1200px;margin-inline:auto;padding-inline:clamp(24px,4vw,48px)}.plans-grid{max-width:1040px;margin:36px auto;gap:20px}.plan{padding:28px;border-radius:20px}.plan-price{min-height:2.5em;margin-bottom:20px}.plan li{font-size:17px;line-height:1.6}.plans>p:not(.eyebrow){max-width:960px}.plans h2{font-size:clamp(36px,4vw,56px)}@media(min-width:1600px){.plans>p{font-size:18px}.plan h3{font-size:28px}.plan-price{font-size:24px}}@media(max-width:700px){.plans-grid{max-width:420px}.plan-price{min-height:0}}
