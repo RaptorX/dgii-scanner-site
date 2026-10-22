@@ -63,5 +63,7 @@ html[lang="es"] .hero h1{font-size:clamp(48px,5.2vw,140px)}
 
 .download-copy{min-width:0}@media(max-width:360px){.download-copy h2{font-size:36px}html[lang="es"] .hero h1{font-size:40px}}
 
-/* Planned tiers, website 0.1.7 */
-.plans{padding:80px var(--space)}.plans h2{margin-bottom:24px}.plans-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin:32px 0}.plan{border-top:1px solid var(--line);padding-top:24px;min-width:0}.plan h3{margin-bottom:16px}.plan-price{font-size:24px}.plan ul{padding-left:22px}.plan li{margin-bottom:12px;overflow-wrap:anywhere}@media(max-width:700px){.plans-grid{grid-template-columns:1fr}.plans{padding-top:48px;padding-bottom:48px}}
+/* Subscription cards, website 0.1.8 */
+.plans{padding:80px var(--space)}.plans h2{margin-bottom:24px}.plans-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin:32px 0}.plan{background:var(--panel);border:1px solid var(--line);border-radius:24px;padding:32px;min-width:0;display:flex;flex-direction:column}.plan:nth-child(2){border-color:var(--light-blue)}.plan h3{margin-bottom:16px}.plan-price{font-size:24px;min-height:3.3em}.plan ul{padding-left:22px;margin:0}.plan li{margin-bottom:12px;overflow-wrap:anywhere}@media(max-width:700px){.plans-grid{grid-template-columns:1fr}.plans{padding-top:48px;padding-bottom:48px}}
+
+@media(max-width:700px){.plan-price{min-height:0}.plan{padding:28px}}

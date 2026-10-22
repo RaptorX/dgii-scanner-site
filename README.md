@@ -1,6 +1,6 @@
 # DGII Scanner public website
 
-Version: 0.1.7
+Version: 0.1.8
 
 Static HTML5 and CSS, served by GitHub Pages. Website only; no application source or credentials.
 
@@ -19,3 +19,5 @@ Version 0.1.5 adds separate receipt-data layers and staggered viewport entrance 
 0.1.6: Spanish defaults with saved English/Spanish preference, Avalion Solutions attribution, prominent receipt app mark, one main support CTA, a clearly unavailable Google Play section, and larger desktop/4K typography. Language preference is stored only on explicit selection.
 
 0.1.7: Planned Free/Pro/Max tiers and recurring 10/50/100 AI allowances, QR-first extraction, explicit cloud consent and local OCR fallback. Purchases, cloud AI and 606 TXT are clearly marked as planned.
+
+0.1.8: Rounded plan cards matching the site palette; plan eyebrow simplified to Individual users / Usuarios individuales.
