@@ -1,6 +1,6 @@
 # DGII Scanner public website
 
-Version: 0.1.10
+Version: 0.1.11
 
 Static HTML5 and CSS, served by GitHub Pages. Website only; no application source or credentials.
 
@@ -25,3 +25,5 @@ Version 0.1.5 adds separate receipt-data layers and staggered viewport entrance 
 0.1.9: Every plan card explicitly includes unlimited on-device OCR; receipt and AI quotas remain separate.
 
 0.1.10: Centered pricing section with a1,040px card-row maximum and restrained desktop typography, preserving mobile stacking.
+
+0.1.11: Public copy focuses on receipt benefits; removes QR terminology and processing-order descriptions while preserving cloud-upload disclosures.
