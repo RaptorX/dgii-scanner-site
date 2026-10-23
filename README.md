@@ -1,6 +1,6 @@
 # DGII Scanner public website
 
-Version: 0.1.13
+Version: 0.1.14
 
 Static HTML5 and CSS, served by GitHub Pages. Website only; no application source or credentials.
 
@@ -31,3 +31,5 @@ Version 0.1.5 adds separate receipt-data layers and staggered viewport entrance 
 0.1.12: Release-style customer copy, no prerelease labels or testing reset claims. Download control remains inactive pending verified listing URL; contact-support installation guidance is shown. Copy changes do not implement or activate app features.
 
 0.1.13: Camera-only capture copy; bilingual AI wording now reflects all-tier allowances, one-time Enable AI disclosure, and local OCR fallback. Privacy and terms clarify accepted-image transfer and on-device originals.
+
+0.1.14: Removes the remaining English and Spanish photo-selection claim from the capture feature details; V1 capture uses the camera.
