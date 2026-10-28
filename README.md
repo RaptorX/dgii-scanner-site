@@ -1,6 +1,6 @@
 # DGII Scanner public website
 
-Version: 0.1.15
+Version: 0.1.16
 
 Static HTML5 and CSS, served by GitHub Pages. Website only; no application source or credentials.
 
@@ -35,3 +35,5 @@ Version 0.1.5 adds separate receipt-data layers and staggered viewport entrance 
 0.1.14: Removes the remaining English and Spanish photo-selection claim from the capture feature details; V1 capture uses the camera.
 
 0.1.15: The privacy policy explains that deleting a DGII Scanner account does not cancel Google Play Pro billing, links to Google Play subscription management, and keeps the support deletion path in English and Spanish.
+
+0.1.16: Configures dgii.pcgrid.org as the Pages custom domain with canonical URLs. DNS and TLS must pass before this hostname is treated as live. Clarifies OpenAI safety-log retention separately from response storage, in English and Spanish, with the official data-controls reference.
