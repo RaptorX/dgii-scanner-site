@@ -1,1 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" rx="7" fill="#2563eb"/><path d="M9 6l3 2 4-2 4 2 3-2v20l-3-2-4 2-4-2-3 2V6Z" fill="none" stroke="white" stroke-width="1.8"/><path d="M13 12h6m-6 4h6m-6 4h4" stroke="white" stroke-width="1.8"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+<rect width="1024" height="1024" fill="#F5A524"/>
+<g transform="translate(512 512) scale(3.6) translate(-100 -104)">
+<path d="M50,24 L42,-2 L76,18 Z" fill="#14213D" stroke="#14213D" stroke-width="6" stroke-linejoin="round"/>
+<path d="M150,24 L158,-2 L124,18 Z" fill="#14213D" stroke="#14213D" stroke-width="6" stroke-linejoin="round"/>
+<ellipse cx="22" cy="128" rx="14" ry="32" transform="rotate(-8 22 128)" fill="#1F8A8A" stroke="#14213D" stroke-width="6"/>
+<ellipse cx="178" cy="128" rx="14" ry="32" transform="rotate(8 178 128)" fill="#1F8A8A" stroke="#14213D" stroke-width="6"/>
+<path d="M30,42 Q30,20 52,20 L148,20 Q170,20 170,42 L170,200 L160,210 L150,200 L140,210 L130,200 L120,210 L110,200 L100,210 L90,200 L80,210 L70,200 L60,210 L50,200 L40,210 L30,200 Z" fill="#FFF7E6" stroke="#14213D" stroke-width="6" stroke-linejoin="round"/>
+<circle cx="72" cy="82" r="26" fill="#FFFFFF" stroke="#14213D" stroke-width="6"/>
+<circle cx="128" cy="82" r="26" fill="#FFFFFF" stroke="#14213D" stroke-width="6"/>
+<rect x="97" y="79" width="6" height="6" fill="#14213D"/>
+<circle cx="76" cy="84" r="10" fill="#14213D"/>
+<circle cx="124" cy="84" r="10" fill="#14213D"/>
+<circle cx="79" cy="80" r="3" fill="#FFFFFF"/>
+<circle cx="127" cy="80" r="3" fill="#FFFFFF"/>
+<path d="M93,108 L107,108 L100,124 Z" fill="#F5A524" stroke="#14213D" stroke-width="3" stroke-linejoin="round"/>
+<line x1="62" y1="142" x2="138" y2="142" stroke="#14213D" stroke-width="4" stroke-linecap="round"/>
+<line x1="62" y1="156" x2="120" y2="156" stroke="#14213D" stroke-width="4" stroke-linecap="round"/>
+<line x1="62" y1="170" x2="132" y2="170" stroke="#14213D" stroke-width="4" stroke-linecap="round"/>
+<line x1="62" y1="186" x2="138" y2="186" stroke="#F5A524" stroke-width="8" stroke-linecap="round"/>
+</g>
+</svg>

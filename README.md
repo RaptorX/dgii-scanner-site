@@ -1,13 +1,13 @@
-# DGII Scanner public website
+# Ticket Owl public website
 
-Version: 0.1.17
+Version: 0.2.0
 
 Static HTML5 and CSS, served by GitHub Pages. Website only; no application source or credentials.
 
 ## Design
 Finpage by Azhar Bhagas (https://finpage-template.webflow.io/) is the visual reference for the wide blue hero, floating navigation, large type, and alternating sections. This site uses original HTML/CSS and receipt artwork; it does not contain Finpage source code, text, photographs, or branded assets.
 
-Colors derive from the app's theming/palette.json. Feature statements were checked against the 0.2.25 app. No public download, payment, cloud receipt backup, testimonials, customer metrics, or official DGII affiliation is claimed.
+Colors derive from the Ticket Owl brand palette (ink #14213D, amber #F5A524, paper #FFF7E6, teal #1F8A8A); art in assets/ comes from the app's branding assets. Feature statements describe the shipped free release: offline, device-local account, on-device capture and review, CSV export. No public download link (until the Google Play listing is published and verified), payment, cloud receipt backup, plans or AI claims, testimonials, customer metrics, or official DGII affiliation is claimed. Every page carries a visible EN/ES non-affiliation statement linking to https://dgii.gov.do.
 
 ## Publish
 Serve main branch root through GitHub Pages. No build dependencies. Increment version.json for each published change. Local preview: python3 -m http.server --bind 127.0.0.1 8768
@@ -39,3 +39,5 @@ Version 0.1.5 adds separate receipt-data layers and staggered viewport entrance 
 0.1.16: Configures dgii.pcgrid.org as the Pages custom domain with canonical URLs. DNS and TLS must pass before this hostname is treated as live. Clarifies OpenAI safety-log retention separately from response storage, in English and Spanish, with the official data-controls reference.
 
 0.1.17: Discloses Google ML Kit diagnostic/usage metrics separately from on-device receipt processing, in English and Spanish, based on the signed Android SDK inventory and Google documentation. Privacy effective date November2,2026.
+
+0.2.0: Rebrand from DGII Scanner to Ticket Owl (package com.avalion.ticketowl, independent app by Avalion Solutions). New owl mark and palette; EN/ES copy rewritten to the shipped free, device-local release (plans/pricing section and sign-in/AI wording removed from the landing page); visible non-affiliation statement with link to https://dgii.gov.do on every page; new delete-account.html (EN/ES) for the Google Play account-deletion requirement; privacy.html and terms.html only renamed (their text still describes cloud accounts, AI and paid plans and needs owner review). CNAME changes to app.avalion.com.do: do not merge until the DNS CNAME `app` -> `raptorx.github.io` exists and the Pages custom domain is switched. Language preference key renamed to ticket-owl-site-language.
